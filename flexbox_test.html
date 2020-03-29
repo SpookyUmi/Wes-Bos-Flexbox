@@ -5,21 +5,62 @@
   <meta charset="UTF-8">
   <title>Flexbox Tutorial</title>
   <link rel="stylesheet" href="flexbox_test.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
+  <div class="wrapper">
 
-  <div class="container">
-    <div class="box box1">1</div>
-    <div class="box box2">2</div>
-    <div class="box box3">3</div>
-    <div class="box box4">4</div>
-    <div class="box box5">5</div>
-    <div class="box box6">6</div>
-    <div class="box box7">7</div>
-    <div class="box box8">8</div>
-    <div class="box box9">9</div>
-    <div class="box box10">10</div>
+    <header class="top">
+      <h1><a href="#">What The Flexbox ?!</a></h1>
+    </header>
+
+    <nav class="flex-nav">
+      <a href="#" class="toggleNav">Menu</a>
+      <ul class="open">
+        <li><a href="index_1.html">Item 01</a></li>
+        <li><a href="index_2.html">Item 02</a></li>
+        <li><a href="pricing_grid.html">Item 03</a></li>
+        <li><a href="#">Item 04</a></li>
+        <li><a href="#">Item 05</a></li>
+        <li><a href="#">Item 06</a></li>
+        <li class="social">
+          <a href="https://twitter.com/spooky_Umi"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://github.com/SpookyUmi"><i class="fa fa-github"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://www.instagram.com/spooky_umi/?hl=fr"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <img src="http://lorempixel.com/1000/600/abstract" alt="">
+    </section>
+
+    <section class="details">
+      <p>A simple video course to help you master Flexbox.</p>
+      <p>Sign up today to grab all the videos and exercises !</p>
+    </section>
+
+    <section class="signup">
+      <form action="" class="signup">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="submit" value="Sign me up!">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; Wes Bos</p>
+    </footer>
+
   </div>
 
 </body>
